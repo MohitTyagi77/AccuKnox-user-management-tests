@@ -1,0 +1,34 @@
+2026-05-10 23:39:01  [INFO]  =================================================================
+2026-05-10 23:39:01  [INFO]    APPLICATION HEALTH CHECK REPORT  �  2026-05-10 23:39:01
+2026-05-10 23:39:01  [INFO]  =================================================================
+2026-05-10 23:39:01  [INFO]    Checking 5 application(s)  |  Timeout: 5s
+2026-05-10 23:39:01  [INFO]  =================================================================
+2026-05-10 23:39:08  [INFO]  =================================================================
+2026-05-10 23:39:08  [INFO]    SUMMARY:  2/5 applications UP  |  3/5 DOWN
+2026-05-10 23:39:08  [INFO]  =================================================================
+2026-05-10 23:39:08  [INFO]    Report saved to: C:\Users\mohit\Desktop\New folder (2)\app_health.log
+2026-05-10 23:39:08  [INFO]  =================================================================
+2026-05-10 23:39:26  [INFO]  =================================================================
+2026-05-10 23:39:26  [INFO]    APPLICATION HEALTH CHECK REPORT  —  2026-05-10 23:39:26
+2026-05-10 23:39:26  [INFO]  =================================================================
+2026-05-10 23:39:26  [INFO]    Checking 5 application(s)  |  Timeout: 5s
+2026-05-10 23:39:26  [INFO]  =================================================================
+2026-05-10 23:39:27  [INFO]    🟢 UP    https://www.google.com
+2026-05-10 23:39:27  [INFO]             └─ HTTP 200 OK  | Response: 953.4 ms
+2026-05-10 23:39:29  [INFO]    🟢 UP    https://httpbin.org/status/200
+2026-05-10 23:39:29  [INFO]             └─ HTTP 200 OK  | Response: 1621.7 ms
+2026-05-10 23:39:30  [INFO]    🔴 DOWN  https://httpbin.org/status/500
+2026-05-10 23:39:30  [INFO]             └─ HTTP 500 INTERNAL SERVER ERROR  | Response: 1753.4 ms
+2026-05-10 23:39:32  [INFO]    🔴 DOWN  https://httpbin.org/status/404
+2026-05-10 23:39:32  [INFO]             └─ HTTP 404 NOT FOUND  | Response: 1667.7 ms
+2026-05-10 23:39:32  [INFO]    🔴 DOWN  https://this-site-does-not-exist.xyz
+2026-05-10 23:39:32  [INFO]             └─ Error: Connection error — host unreachable or DNS failed
+2026-05-10 23:39:32  [INFO]  =================================================================
+2026-05-10 23:39:32  [INFO]    SUMMARY:  2/5 applications UP  |  3/5 DOWN
+2026-05-10 23:39:32  [WARNING]    ⚠️  3 application(s) require attention!
+2026-05-10 23:39:32  [WARNING]        ❌  https://httpbin.org/status/500
+2026-05-10 23:39:32  [WARNING]        ❌  https://httpbin.org/status/404
+2026-05-10 23:39:32  [WARNING]        ❌  https://this-site-does-not-exist.xyz
+2026-05-10 23:39:32  [INFO]  =================================================================
+2026-05-10 23:39:32  [INFO]    Report saved to: C:\Users\mohit\Desktop\New folder (2)\app_health.log
+2026-05-10 23:39:32  [INFO]  =================================================================
